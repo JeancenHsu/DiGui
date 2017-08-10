@@ -1,0 +1,302 @@
+*{
+  padding: 0;
+  margin: 0; 
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+body {
+  font-family: 'Microsoft Yahei';
+  background: #f2f2f2;
+  font-size: 1.4rem; 
+  padding-bottom: 30px;
+}
+
+.choice-head {
+  width: 100%;
+  height: 40px;
+  background: #4f62d7;
+  border-bottom: 2px solid #a8a4a4;
+}
+
+.choice-head-con{
+    width: 100%;
+    float: left;
+    margin: 7px 8px 8px 16px;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.choice-head-con img{
+    margin-right: 8px;
+    float: left;
+    border-radius: 90px;
+}
+
+.choice-head-con a{
+    margin-top: 3px;
+    display: block;
+    font-size: 1.5rem;
+    float:left;
+    color: white;
+    font-weight: bold;
+}
+
+.name{
+    margin-top: 3px;
+    font-size: 1.4rem;
+}
+
+.head{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #a8a4a4;
+    background: #d2d4d2;
+    position: absolute;
+    left: auto;
+    top: auto;
+}
+
+.title{
+    font-family: "STFangsong";
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    line-height: 42px;
+}
+
+.option{
+    width: 100%;
+    height: 40px;
+    margin-top: 44px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.sort{
+    width: 100%;
+    height: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+.option-sexboy{
+    width:100%;
+    margin-right: 8px;
+}
+
+.option-sexgirl{
+    width:100%;
+    margin-right: 8px;
+}
+
+.option-level-high{
+    width:100%;
+    margin-right: 8px;
+}
+
+.option-level-low{
+    width:100%;
+    margin-right: 8px;
+}
+
+.option-sexboy a{
+    text-decoration: none;
+    color: grey;
+}
+
+.option-sexboy a:hover{
+    color: #4f62d7;
+}
+
+.option-sexgirl a{
+    text-decoration: none;
+    color: grey;
+}
+
+.option-sexgirl a:hover{
+    color: #4f62d7;
+}
+
+.option-level-high a{
+    text-decoration: none;
+    color: grey;
+}
+
+.option-level-high a:hover{
+    color: #4f62d7;
+}
+
+.option-level-low a{
+    text-decoration: none;
+    color: grey;
+}
+
+.option-level-low a:hover{
+    color: #4f62d7;
+}
+
+.header{
+   width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    border-bottom: 1px solid #d9d9d9; 
+}
+
+.header_content{
+    font-family: "STFangsong";
+    color: rgb( 0, 0, 0 );
+    height: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.header_content span{
+    margin-right: 8px;
+}
+
+.header_1{
+    margin-left: 6px;
+}
+
+.header_2{
+    margin-left: 6px;
+}
+
+.middle{
+    width: 100%;
+    height: 330px;
+    margin-top: 6px;
+    
+}
+
+.middle_content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d9d9d9;
+    font-family:"STFangsong";
+    text-align: center;
+}
+
+.middle_1{ 
+    margin-left: -10px;
+}
+
+.middle_2{
+   margin-left: 15px; 
+}
+
+.middle_3{
+   margin-left: 15px; 
+}
+.middle_4{
+   margin-left: 36px; 
+}
+.middle_5{
+   margin-left: 42px; 
+}
+.middle_6{
+    margin-left: 32px;
+    border-width: 1px;
+}
+
+.middle_6 a{
+    text-decoration: none;
+    color: black;
+}
+
+.tedg{
+    margin-top: 8px;
+    width:100%;
+    border-bottom: 1px solid #d9d9d9; 
+    height:40px; 
+    display:none;
+    background: gainsboro; 
+    height: 120px;
+}
+
+.wrap{
+    text-align: center;
+}
+
+.tedg_1{
+    margin-left: -74px;
+}
+
+.tedg_2{
+    margin-top: 3px;
+    margin-left: -30px;
+}
+
+.tedg_3{
+    margin-top: 3px;
+    margin-left: -103px;
+}
+
+.tedg_4{
+    margin-top: 3px;
+    margin-left: -123px;
+}
+.tedg_5{
+    margin-top: 3px;
+    margin-left: -70px;
+}
+
+.tedg_6{
+   margin-right: -40px;
+}
+.tedg_7{
+   margin-left: 80px;  
+}
+
+.page{
+    margin-top: 40px;
+    text-align: center;
+    font-family: "STFangsong";
+    color: rgb( 0, 0, 0 );
+}
+
+.page a{
+    text-decoration: none;
+    font-family: "STFangsong";
+    color: rgb( 0, 0, 0 );
+}
+
+.number{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "STFangsong";
+    color: rgb( 247, 31, 41 );
+}
+
+.index-btns{
+    margin-top: 8px;
+    height: 50px;
+}
+
+.index-btn1 {
+	width:90%;
+	height: 40px;
+	margin: 3px auto;
+    text-align: center;
+    background: #465eda;
+    border: 1px solid #465eda;
+    box-shadow: 2px 2px 1px #465eda;
+    border-radius: 4px;
+}
+
+
+.index-btn1 input{
+	width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: #FFF; 
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.page ul li{
+	display: inline-block;
+}

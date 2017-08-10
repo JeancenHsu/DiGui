@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0; 
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+body {
+  font-family: 'Microsoft Yahei';
+  background: #f2f2f2;
+  font-size: 1.4rem; 
+  padding-bottom: 30px;
+}
+
+.choice-head {
+  width: 100%;
+  height: 40px;
+  background: #4f62d7;
+  border-bottom: 2px solid #a8a4a4;
+}
+
+.choice-head-con{
+    width: 100%;
+    float: left;
+    margin: 7px 8px 8px 16px;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.choice-head-con img{
+    margin-right: 8px;
+    float: left;
+    border-radius: 90px;
+}
+
+.choice-head-con a{
+    margin-top: 3px;
+    display: block;
+    font-size: 1.5rem;
+    float:left;
+    color: white;
+    font-weight: bold;
+}
+
+.name{
+    margin-top: 3px;
+    font-size: 1.4rem;
+}
+
+.head{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #a8a4a4;
+    background: #d2d4d2;
+}
+
+.title{
+    font-family: "STFangsong";
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    line-height: 42px;
+}
+
+.index-btns{
+    margin-top: 25px;
+}
+
+.index-btn1 {
+	width:90%;
+	height: 40px;
+	margin: 15px auto;
+    text-align: center;
+    background: #465eda;
+    border: 1px solid #465eda;
+    box-shadow: 2px 2px 1px #465eda;
+    border-radius: 4px;
+}
+
+.index-btn1 input{
+	width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: #FFF; 
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.content{
+    width:100%;
+    height: 90px;
+    margin-top: 5px;
+    font-family: "STFangsong";
+    color: rgb( 0, 0, 0 );
+}
+
+.content_1{
+    width: 100%;
+    height: 25px;
+}
+
+.content_name{
+    margin-left: 10px;
+}
+
+.content_phone{
+    float: right;
+    margin-right: 30px;
+}
+
+.content_2{
+    width: 100%;
+    height: 25px;
+    margin-left: 10px;
+     border-bottom: 1px solid #d9d9d9;
+}
+
+.content_3{
+   width: 100%;
+    height: 25px;
+   margin-left: 10px;
+    margin-top: 5px;
+     border-bottom: 10px solid #d9d9d9; 
+}
+
+.content_3 a{
+    text-decoration: none;
+}
+
+.content_set{
+    color: rgb( 238, 13, 34 );
+}
+
+
+.content_delete{
+    float: right;
+    margin-right: 20px;
+}
+
+.content_edit{
+    float: right;
+    margin-right: 20px;
+}
+
+.img_1{
+    width: 16px;
+    height: 18px;
+    margin-right: 10px;
+    float: right;
+}
+
+.img_2{
+    width: 16px;
+    height: 18px;
+    margin-right: 10px;
+    float: right;
+}

@@ -1,0 +1,181 @@
+html{
+    font-size: 62.5%; /* 10 ÷ 16 × 100% = 62.5% */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+/*  font-family: 'Microsoft Yahei';*/
+  background: #ebebeb;
+  font-size: 1.4rem; 
+}
+
+.head{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #a8a4a4;
+    background: #d2d4d2;
+}
+
+.title{
+    font-family: "STFangsong";
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    line-height: 42px;
+}
+
+.image{
+    width: auto;
+    height: 100px;
+    text-align: center;
+    background-color: #ecedf1;
+}
+
+.content{
+    width: auto;
+    height: 148px;
+}
+.inp_{
+    width: auto;
+    height: 40px;
+    margin: 2px 0px 0px 0px;
+    border: 1px  #bbbbbb;
+    background: #ffffff;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    position: relative;
+}
+ 
+.inp-Con{
+    width: auto;
+    height: 20px;
+    padding: 10px 0;
+    margin:0 40px;
+}
+
+.inp-Con select{
+    width: 100%;
+}
+
+.inp-Con input{
+    width: 100%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.button{
+    color: #00aced;
+}
+
+
+.click{
+    width: auto;
+    height: 45px;
+    margin: 0 20px 10px 20px;
+    text-align: center;
+}
+
+.button{
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #00aced;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 40px;
+    text-align: center;
+}
+
+.icon_01{
+    background: url("../image/icon.png") 10px 12px no-repeat #FFF;  
+}
+
+ .icon_02{
+    background: url("../image/icon.png") 11px -22px no-repeat #FFF;
+}
+
+ .icon_03{
+    background: url("../image/register.png") 10px 12px no-repeat #FFF;
+}
+
+.sex{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 1.6rem;
+}
+
+.login{
+    margin-right: 20px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+/*    background: #00aced;*/
+    margin-top: 10px;
+    text-decoration: none;
+    color: #00aced;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 35px;
+    text-align: center;
+}
+
+a:visited{
+    text-decoration: none;
+}
+.content_1{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.index-btns{
+    margin-top: 25px;
+}
+
+.index-btn1 {
+	width:90%;
+	height: 40px;
+	margin: 15px auto;
+    text-align: center;
+    background: #465eda;
+    border: 1px solid #465eda;
+    box-shadow: 2px 2px 1px #465eda;
+    border-radius: 4px;
+}
+
+.index-btn1 input{
+	width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: #FFF; 
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+

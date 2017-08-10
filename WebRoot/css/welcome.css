@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0; 
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+body {
+  font-family: 'Microsoft Yahei';
+  background: #f2f2f2;
+    background-image: url(../image/bg3.png);
+    background-size: cover;
+  font-size: 1.4rem; 
+  padding-bottom: 30px;
+}
+
+.choice-head {
+  width: 100%;
+  height: 40px;
+  background: #4f62d7;
+  border-bottom: 2px solid #a8a4a4;
+}
+
+.choice-head-con{
+    width: 100%;
+    float: left;
+    margin: 7px 8px 8px 16px;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.choice-head-con img{
+    margin-right: 8px;
+    float: left;
+    border-radius: 90px;
+}
+
+.choice-head-con a{
+    margin-top: 3px;
+    display: block;
+    font-size: 1.5rem;
+    float:left;
+    color: white;
+    font-weight: bold;
+}
+
+.name{
+    margin-top: 3px;
+    font-size: 1.4rem;
+}
+
+.content{
+    text-align: center;
+    margin-top: 24px; 
+}
+
+.content img{
+    text-align: center;
+    border-radius: 90px;
+}
+
+.content-name{
+    font-family: "Microsoft YaHei";
+    color: rgb( 70, 94, 218 );
+    margin-top: 15px;
+    font-size: 29px;
+}
+
+.content-school{
+    font-family: "STFangsong";
+    color: rgb( 121, 124, 121 );
+    margin-top: 15px;
+    font-size: 23px;
+}
+
+.index-btns{
+    margin-top: 45px;
+}
+
+.index-btn1 {
+	width:90%;
+	height: 40px;
+	margin: 15px auto;
+    text-align: center;
+    background: #465eda;
+    border: 1px solid #465eda;
+    box-shadow: 2px 2px 1px #4865fb;
+    border-radius: 4px;
+}
+
+.index-btn1 input{
+	width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: #FFF; 
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.index-btn2 {
+	width:90%;
+	height: 40px;
+	margin: 10px auto;
+    text-align: center;
+    background: #20c818;
+    border: 1px solid #20c818;
+    box-shadow: 2px 2px 1px #47f83e;
+    border-radius: 4px;
+}
+
+.index-btn2 input{
+	width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: #FFF; 
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}

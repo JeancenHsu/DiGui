@@ -1,0 +1,160 @@
+*{
+  padding: 0;
+  margin: 0; 
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+body {
+  font-family: 'Microsoft Yahei';
+  background: #f2f2f2;
+  font-size: 1.4rem; 
+  padding-bottom: 30px;
+}
+
+.choice-head {
+  width: 100%;
+  height: 40px;
+  background: #4f62d7;
+  border-bottom: 2px solid #a8a4a4;
+}
+
+.choice-head-con{
+    width: 100%;
+    float: left;
+    margin: 7px 8px 8px 16px;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.choice-head-con img{
+    margin-right: 8px;
+    float: left;
+    border-radius: 90px;
+}
+
+.choice-head-con a{
+    margin-top: 3px;
+    display: block;
+    font-size: 1.5rem;
+    float:left;
+    color: white;
+    font-weight: bold;
+}
+
+.name{
+    margin-top: 3px;
+    font-size: 1.4rem;
+}
+
+.head{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #a8a4a4;
+    background: #d2d4d2;
+}
+
+.title{
+    font-family: "STFangsong";
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 42px;
+}
+
+.person{
+    width: 100%;
+    height: 180px;
+    margin-top: 4px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.person_status{
+    font-family: "SimHei";
+    color: red;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.order_con{
+    font-family: "STZhongsong";
+    color: rgb( 0, 0, 0 );
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.details{
+    float: right;
+    font-family: "SimSun";
+    color: rgb( 28, 193, 183 );
+    margin-top: -20px; 
+    font-size: 1.4rem;
+}
+
+.details a{
+    text-decoration: none;
+}
+
+.order_price{
+    width: 150px;
+    float: right;
+    font-family: "Microsoft YaHei";
+    color: red;
+    margin-top: -25px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.confirm-btn{
+    width:80px;
+	height: 25px;
+	float: right;
+    margin-top: -10px;
+    text-align: center;
+    background: #20c818;
+    border: 1px solid #20c818;
+    box-shadow: 2px 2px 1px #20c818;
+    border-radius: 4px;
+}
+
+.confirm-btn input{
+	width: 100%;
+    height: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 20px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.index-btns{
+    margin-top: 25px;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.footer-Con{
+    width: 100%;
+    margin: 0 auto;
+    font-family: "STFangsong";
+    color: rgb( 121, 124, 121 );
+    font-size: 1.4rem;
+}
+
+.footer-Con{
+    text-align: center;
+}

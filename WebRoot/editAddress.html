@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,height=device-height, user-scalable=no,initial-scale=1, minimum-scale=1, maximum-scale=1,target-densitydpi=device-dpi ">
+    <link rel="stylesheet" href="css/editAddress.css">
+        <script type="text/javascript">
+		    function check(){
+		    	if(editform.username.value==""){
+		    		alert("收件人不能为空!");
+		    		editform.username.focus();
+		    		return false;
+		   	    }
+                
+                if(editform.userphone.value==""){
+		          alert("手机号不能为空!");
+		          editform.userphone.focus();
+		          return false;
+                }else if(!(/^1[34578]\d{9}$/.test(editform.userphone.value))){
+                  alert("请输入正确的手机号码"); 
+                  document.editform.userphone.focus();
+                  return false; 
+                 }
+		   
+		    if(editform.userno.value==""){
+			    alert("学号不能为空!");
+			    editform.userno.focus();
+			    return false;
+			 }	
+            if(editform.address.value==""){
+			    alert("收货地址不能为空!");
+			    editform.address.focus();
+			    return false;
+			 }	
+			    editform.submit();
+			}
+    </script>
+</head>
+<body>
+      <div class="choice-head">
+        <div class="choice-head-con">
+            <img src="image/tx_small.png">
+            <a>许进春&nbsp;</a>
+            <div class="name">童鞋，欢迎使用递归！</div>
+        </div>
+    </div>
+    
+   <div class="head">
+        <div class="title">编辑地址</div>
+    </div>
+  <form action="" name="editform">  
+    <div class="person"> 
+        <div class="person_con">
+            <span>收&nbsp;&nbsp;件&nbsp;人： </span>
+            <span>&nbsp;<input type="text" name="username"></span>
+        </div>
+        <div class="person_con">
+            <span>联&nbsp;系&nbsp;方&nbsp;式：  </span>
+            <span><input type="text" name="userphone"></span>
+        </div>
+        <div class="person_con">
+            <span>学&nbsp;&nbsp;&nbsp;&nbsp;号： </span>
+            <span>&nbsp;<input type="text" name="userno"></span>
+        </div>
+        <div class="person_con1">
+            <span>收&nbsp;货&nbsp;地&nbsp;址：  </span>
+            <span><input type="text" name="address"></span>
+        </div>
+        
+        <div class="person_con">
+            <span class="delete"><a href="">删除地址</a></span>
+        </div>
+    </div>
+    </form>
+    <div class="index-btns">
+        <div class="index-btns-Con">
+                <div class="index-btn1">
+                       <a href="">
+                        <input type="button" value="保&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;存" onclick="check()">
+                        </a>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

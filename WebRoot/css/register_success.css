@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+.start img{
+    margin-top: 30px;
+}
+
+body {
+  font-family: 'Microsoft Yahei';
+  background: #f2f2f2;
+  background-image: url(../image/bg3.png);
+  background-size: cover;
+  font-size: 1.4rem; 
+  padding-bottom: 30px;
+}
+
+.con-top{
+    width: 100%;
+    height: 40px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.success{
+    margin-left: 2px;
+    font-size: 2.3rem;
+    color: rgb( 70, 94, 218 );
+    margin-top: 18px;
+    line-height: 40px;
+}
+
+.index-btns{
+    margin-top: 45px;
+    width: 100%;
+    height: 230px;
+}
+
+.index-btn1 {
+	width:90%;
+	height: 40px;
+	margin: 15px auto;
+    text-align: center;
+    background: #465eda;
+    border: 1px solid #465eda;
+    box-shadow: 2px 2px 1px #4865fb;
+    border-radius: 4px;
+}
+
+.index-btn1 input{
+	width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: #FFF; 
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.index-btn2 {
+	width:90%;
+	height: 40px;
+	margin: 10px auto;
+    text-align: center;
+    background: #20c818;
+    border: 1px solid #20c818;
+    box-shadow: 2px 2px 1px #47f83e;
+    border-radius: 4px;
+}
+
+.index-btn2 input{
+	width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: #FFF; 
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}

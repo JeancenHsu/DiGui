@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>请完善个人信息</title>
+    <link rel="stylesheet" href="css/register_info.css">
+    <meta name="viewport" content="width=device-width,height=device-height, user-scalable=no,initial-scale=1, minimum-scale=1, maximum-scale=1,target-densitydpi=device-dpi ">
+    <script type="text/javascript">
+		  function check(){
+		    	if(addform.username.value==""){
+		    		alert("姓名不能为空!");
+		    		addform.username.focus();
+		    		return false;
+		   	 }
+              if(addform.id.value==""){
+		    		alert("身份证号码不能为空!");
+		    		addform.id.focus();
+		    		return false;
+		   	 }else if(!/^(\d{15}$|^\d{18}$|^\d{17}(\d|X|x))$/){
+                 alert("请输入正确的身份证号码！"); 
+                 document.addform.id.focus();
+                 return false;
+             }
+              
+              if(addform.userno.value==""){
+		    		alert("学号不能为空!");
+		    		addform.userno.focus();
+		    		return false;
+		   	 }
+              
+              if(addform.address.value==""){
+		    		alert("收货地址不能为空!");
+		    		addform.address.focus();
+		    		return false;
+		   	 }
+			    addform.submit();
+			}
+    </script>
+</head>
+<body>
+   <body>
+  <form name="addform" onsubmit="return check()" action="operater?method=doAddinfo" method="post">
+    <div class="head">
+        <div class="title">完善个人信息</div>
+    </div>
+           
+    <div class="image">
+        <img src="image/touxiang.png">
+    </div>
+			
+    <div class="inp_ icon_03">
+        <div class="inp-Con">
+            <input type="text" name="name"  placeholder="请输入姓名" >
+		</div>
+    </div>
+       
+    <div class="inp_ icon_03">
+        <div class="inp-Con">
+            <select name="sex" id="">
+                <option value="unknown">请选择性别</option>
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select>
+		</div>
+    </div>
+        
+        <div class="inp_ icon_03">
+            <div class="inp-Con">
+				<input type="text" name="id_num"  placeholder="请输入身份证号码" >
+            </div>
+        </div>
+        
+        <div class="inp_ icon_03">
+        <div class="inp-Con">
+            <select name="school_name" id="">
+               <option value="">请选择学校</option>
+                <option value="南京晓庄学院">南京晓庄学院</option>
+            </select>
+		</div>
+    </div>
+			
+        <div class="inp_ icon_03">
+            <div class="inp-Con">
+				<input type="text" name="stu_num"  placeholder="请输入学号" >
+            </div>
+        </div>
+        
+        <div class="inp_ icon_03">
+            <div class="inp-Con">
+				<input type="text" name="address"  placeholder="请输入收货地址" >
+            </div>
+        </div>
+
+        <div class="index-btns">
+            <div class="index-btns-Con">
+                <div class="index-btn1">
+                   <a href="">
+                    <input type="submit" value="确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;认" onclick="check()">
+                    </a>
+                </div>
+            </div>
+        </div>
+  </form>
+</body> 
+</html>
